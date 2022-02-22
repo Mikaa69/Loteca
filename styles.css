@@ -2,7 +2,7 @@ header{
     text-align: center;
     margin-top: 80px;
     margin-bottom: 80px;
-    color: indigo;
+    color: rgb(181, 104, 201);
 }
 
 header > h1 {
@@ -14,4 +14,43 @@ header > h1 {
 header > h3 {
     
     font-family: cursive;
+}
+
+input {
+    width: 5.5rem;
+    height: 5rem;
+    font-size: 3rem;
+    border-color: white;
+    background-color: rgba(190, 113, 190, 0.877);
+    
+}
+
+.numeros {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.sorteio, .verificacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.btnsort{
+    padding: 5px 20px;
+    font-size: 2em;
+    margin-top: 10px;
+    background-color: rgb(185, 102, 206);
+    color: white;
+    border-color: white;
+}
+body{
+    background-color: black;
+}
+p{
+    font-size: 2em;
 }
