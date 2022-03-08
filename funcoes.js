@@ -21,11 +21,17 @@ function getNum(valor, pos){
         alert("O valor é maior que 60")
     }else if(valor<=0){
         alert("O valor nao pode ser menor que 0")
+        limpar(pos)
     }else if(numDig.includes(valor)){
         alert("O valor ja foi digitado!")
+        limpar(pos)
     }else{
         numDig[pos]=valor
     }
+}
+
+function limpar(pos){
+    document.getElementById(`num${pos}`).value = ""
 }
 
 function verificaAcertos(){
