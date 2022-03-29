@@ -10,9 +10,9 @@ sorteia outros 6 numeros e apos isso verifica a quantidade de acertos.
 - **JS** Funções do site
 - ~~BootStrap~~: Nao foi utilizado
 
-1. [] Subir no github pages
-2. [] Trocar o Alert por mensagens mais amigaveis 
-3. [] Realizar testes para descobrir bugs 
+1. [x] Subir no github pages
+2. [ ] Trocar o Alert por mensagens mais amigaveis 
+3. [ ] Realizar testes para descobrir bugs 
 
 #### Disponivel em:
 [GitHubPages](https://mikaa69.github.io/Loteca/)
