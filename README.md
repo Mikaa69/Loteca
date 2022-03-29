@@ -33,4 +33,4 @@ function verificaAcertos() {
 
 |tela inicial|Primeira rodada|
 |------------|---------------|
-|  imagem 1  |    imagem 2   |
+| ![tela inicial do site](/img/print.png) |   ![tela da primeira rodada](/img/print2.png)   |
